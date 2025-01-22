@@ -1,0 +1,60 @@
+body{
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.Heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.front-title{
+    color:#37B7C3
+}
+
+.back-title{
+    color: orange;
+    padding-right:20px
+}
+
+.sub-part{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+.Member{
+    max-width: 40%;
+    flex: 1;
+    background-color:rgb(240, 235, 235);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.name{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color:#37B7C3;
+}
+
+.designation{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color:orange;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

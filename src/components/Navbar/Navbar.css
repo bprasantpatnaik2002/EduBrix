@@ -35,3 +35,7 @@ body {
   .nav-links a:hover {
     color: #ff9800;
   }
+
+  .nav-links a.active {
+    color: #ff9800;
+  }

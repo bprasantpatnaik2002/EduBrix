@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css'; // Make sure to add the corresponding CSS file
 import Logo from '/Logofull.png'; // Make sure to add the corresponding image file
+import { NavLink } from "react-router"
 
 
 const Navbar = () => {
@@ -11,13 +12,13 @@ const Navbar = () => {
         <img src={Logo} alt="logo"   />
       </div>
       <ul className="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#counselling">Counselling</a></li>
-        <li><a href="#Education">Education</a></li>
-        <li><a href="#Prereq">Prerequisites</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/about">About</NavLink></li>
+        <li><NavLink to="/services">Services</NavLink></li>
+        <li><NavLink to="/counselling">Counselling</NavLink></li>
+        <li><NavLink to="/Education">Education</NavLink></li>
+        <li><NavLink to="/Prereq">Prerequisites</NavLink></li>
+        <li><NavLink to="/contact">Contact</NavLink></li>
       </ul>
     </nav>
   );
